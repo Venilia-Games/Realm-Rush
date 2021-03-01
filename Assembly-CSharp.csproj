@@ -55,6 +55,8 @@
      <Compile Include="Assets\Tiles\Waypoint.cs" />
      <Compile Include="Assets\Enemy\EnemyMover.cs" />
      <Compile Include="Assets\Tiles\CoordinateLabeler.cs" />
+     <Compile Include="Assets\Tower\TargetLocator.cs" />
+     <Compile Include="Assets\Enemy\EnemyHealth.cs" />
      <None Include="Assets\AssetPacks\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\AssetPacks\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\AssetPacks\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
