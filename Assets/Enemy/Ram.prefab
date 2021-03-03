@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: -8985726102108747031}
   - component: {fileID: 4257316017067690305}
   - component: {fileID: 2105272852877497730}
+  - component: {fileID: 8910479783416614232}
   m_Layer: 0
   m_Name: Ram
   m_TagString: Untagged
@@ -152,5 +153,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dce45dfab4edf0d0c99fdcf3b24a7781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHitPoints: 5
+  currentHitPoints: 0
+--- !u!114 &8910479783416614232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5040643765344069697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62600b8d94b7d0b6480b56f2d85f4687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
