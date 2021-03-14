@@ -4336,11 +4336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 376d0dd44ec172fb782fc4be7d755ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  node:
-    coordinates: {x: 2, y: 1}
-    isWalkable: 1
-    isExplored: 0
-    isPath: 0
+  gridSize: {x: 5, y: 5}
 --- !u!4 &374381011
 Transform:
   m_ObjectHideFlags: 0
