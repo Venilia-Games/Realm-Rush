@@ -52,17 +52,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Environment\Waypoint.cs" />
+     <Compile Include="Assets\Environment\Tile.cs" />
      <Compile Include="Assets\Bank\Bank.cs" />
      <Compile Include="Assets\Enemy\EnemyHealth.cs" />
+     <Compile Include="Assets\Pathfinding\Pathfinder.cs" />
      <Compile Include="Assets\Enemy\ObjectPool.cs" />
      <Compile Include="Assets\Tower\TargetLocator.cs" />
      <Compile Include="Assets\Tower\Tower.cs" />
      <Compile Include="Assets\Enemy\EnemyMover.cs" />
-     <Compile Include="Assets\Enemy\Enemy.cs" />
-     <Compile Include="Assets\Environment\CoordinateLabeler.cs" />
      <Compile Include="Assets\Pathfinding\Node.cs" />
+     <Compile Include="Assets\Enemy\Enemy.cs" />
      <Compile Include="Assets\Pathfinding\GridManager.cs" />
+     <Compile Include="Assets\Environment\CoordinateLabeler.cs" />
      <None Include="Assets\AssetPacks\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\AssetPacks\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\AssetPacks\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -674,6 +675,21 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/home/vanica/Projects/Unity/Projects/Realm Rush/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Sysroot.Linux_x86_64">
+ <HintPath>/home/vanica/Projects/Unity/Projects/Realm Rush/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Toolchain.Linux-x86_64">
+ <HintPath>/home/vanica/Projects/Unity/Projects/Realm Rush/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.SysrootPackage.Editor">
+ <HintPath>/home/vanica/Projects/Unity/Projects/Realm Rush/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>/home/vanica/Projects/Unity/Projects/Realm Rush/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>/home/vanica/Projects/Unity/Projects/Realm Rush/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
